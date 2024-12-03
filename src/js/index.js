@@ -4,23 +4,23 @@ import { THEMES } from './config'
 const themeSwitch = document.querySelector('.toggle-theme')
 let theme = localStorage.getItem('theme') || THEMES.dark
 document.documentElement.setAttribute('data-theme', theme)
+const result = document.getElementById('#result')
 
-if (theme === THEMES.dark) {
-	document.documentElement.setAttribute('data-theme', THEMES.dark)
-} else {
-	document.documentElement.setAttribute('data-theme', THEMES.light)
-}
-
-themeSwitch.addEventListener('click', () => {
+const setThemeText = () => {
 	if (theme === THEMES.dark) {
 		document.documentElement.setAttribute('data-theme', THEMES.light)
 		theme = THEMES.light
-		themeSwitch.innerHTML = 'Enable dark mode'
+		themeSwitch.innerHTML = 'Dark mode'
 	} else {
 		document.documentElement.setAttribute('data-theme', THEMES.dark)
 		theme = THEMES.dark
-		themeSwitch.innerHTML = 'Enable light mode'
+		themeSwitch.innerHTML = 'Light mode'
 	}
+}
 
+setThemeText()
+
+themeSwitch.addEventListener('click', () => {
+	setThemeText()
 	localStorage.setItem('theme', theme)
 })
