@@ -1,0 +1,41 @@
+:root {
+	--primary-color: #212124;
+	--secondary-color: #404040;
+	--light-grey-color: #b3b3b3;
+	--font-color: #eeeeee;
+	--bg-color: #eeeeee;
+	--numbers-color: #818cab;
+	--operators-color: #d3762a;
+	--border-radius: 5px;
+	--spacing-small: 0.2rem;
+}
+
+[data-theme='light'] {
+	--primary-color: white;
+	--secondary-color: #b3b3b3;
+	--light-grey-color: #dedddd;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-color);
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator {
+	/* border: 2px solid red; */
+	height: 500px;
+	background-color: var(--primary-color);
+}
