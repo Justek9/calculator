@@ -1,6 +1,9 @@
-[APP live preview]()
+[APP live preview](https://calculator-sscd.onrender.com)
 
 A simple calculator app built with JavaScript, HTML, and CSS whith light/dark theme switching.
+
+Task:
+https://docs.google.com/document/d/1xpq0wfBuAq6ufFsM1s3W2ApKszwxi8PszDRbPKB_omw/edit?tab=t.0#heading=h.5dt3hghpa22f
 
 # Getting Started
 
@@ -26,6 +29,7 @@ npm run build
 
 ## Files structure
 
+<pre>
 
 ├── index.html          # Main HTML file
 ├── js/
@@ -40,3 +44,5 @@ npm run build
 ├── .gitignore          # Git ignore file
 ├── .webpack.config.js  # Webpack configuration file
 └── README.md
+
+</pre>
