@@ -2,12 +2,10 @@
 
 A simple calculator app built with JavaScript, HTML, and CSS whith light/dark theme switching.
 
-Task:
+# Task overview:
 https://docs.google.com/document/d/1xpq0wfBuAq6ufFsM1s3W2ApKszwxi8PszDRbPKB_omw/edit?tab=t.0#heading=h.5dt3hghpa22f
 
-# Getting Started
-
-## How to Run the App
+# How to Run the App
 
 To run the calculator locally, follow the steps:
 
