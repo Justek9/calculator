@@ -24,8 +24,6 @@ const setTheme = () => {
 	}
 }
 
-setTheme()
-
 themeSwitch.addEventListener('click', () => {
 	setTheme()
 	localStorage.setItem('theme', theme)
